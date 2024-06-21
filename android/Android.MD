@@ -10,10 +10,10 @@
 
 ```json
 {
-    "userId": 1,
-    "Id"     = 1,
-    "title"  = "sampel"
-    "Body"   = "sampel"
+    "userId" : 1,
+    "Id"     : 1,
+    "title"  : "sampel"
+    "Body"   : "sampel"
 }
 ```
 
