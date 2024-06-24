@@ -32,14 +32,17 @@
         DIBUAT UNTUK MENGIDENTIFIKASI ENPOINT API MENGUNAKAN "RETROFIT"
 
         EX :
-            Import retrofit2.Call
-            Import retrofit2.Http.* / Get
 
-            Interface ApiService {
-                @Get ("Post")
+```kotlin
+    Import retrofit2.Call
+    Import retrofit2.Http.* / Get
 
-                fun Get Post() : Call<List<post>>
-            }
+    Interface ApiService {
+        @Get ("Post")
+
+        fun Get Post() : Call<List<post>>
+    }
+```
 
     3. KONFIGURASI RETROFIT
         BUAT INTERFACE RETROFIT DI CLASS YANG SESUAI
