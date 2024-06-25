@@ -8,32 +8,33 @@
 
 # API
 
-```json
-{
-    "userId" : 1,
-    "Id"     : 1,
-    "title"  : "sampel"
-    "Body"   : "sampel"
-}
-```
+    ```json
+    {
+        "userId" : 1,
+        "Id"     : 1,
+        "title"  : "sampel",
+        "Body"   : "sampel",
+    }
+    ```
 
 # CLASS DATA API
 
-```kotlin
-{
-    val userId = Int,
-    val Id     = Int,
-    val title  = String,
-    val Body   = String
-}
-```
+    ```kotlin
+    {
+        val userId = Int,
+        val Id     = Int,
+        val title  = String,
+        val Body   = String
+    }
+    ```
 
     2. MEMBUAT INTERFACE API (API SERVICE)
         DIBUAT UNTUK MENGIDENTIFIKASI ENPOINT API MENGUNAKAN "RETROFIT"
 
         EX :
 
-```kotlin
+    ```js
+
     Import retrofit2.Call
     Import retrofit2.Http.* / Get
 
@@ -42,7 +43,7 @@
 
         fun Get Post() : Call<List<post>>
     }
-```
+    ```
 
     3. KONFIGURASI RETROFIT
         BUAT INTERFACE RETROFIT DI CLASS YANG SESUAI
@@ -54,7 +55,7 @@
 
     # LIBRARY RECYCERVIEW KONFIGURASI IMPLEMENTASI NETWORKING API
 
-    ```Implementasi
+    ```JS
 
     // Butterknife
     implementation 'com.jakewharton:butterknife:9.0.0-rc2'

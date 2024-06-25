@@ -12,7 +12,7 @@ dependencies {
 
 ## MODAL DATA
 
-```js
+    ```js
 
     data class User(
         val id: Int,
@@ -20,7 +20,7 @@ dependencies {
         val username: String,
         val email: String
         )
-```
+    ```
 
 ## BUAT INTERFACE API SERVICE
 
